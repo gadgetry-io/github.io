@@ -5,9 +5,44 @@
     <description>We Get Ship Done! Pipeline as a Service for the well-equipped modern business.</description>
     <link>https://gadgetry.io/</link>
     <atom:link href="https://gadgetry.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Apr 2017 00:39:10 -0500</pubDate>
-    <lastBuildDate>Sat, 15 Apr 2017 00:39:10 -0500</lastBuildDate>
+    <pubDate>Sat, 15 Apr 2017 17:07:52 -0500</pubDate>
+    <lastBuildDate>Sat, 15 Apr 2017 17:07:52 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Sample Presentation</title>
+        <description>&lt;section data-markdown=&quot;&quot;&gt;
+## Slide 1
+
+[reveal.js](https://github.com/hakimel/reveal.js/) enables you to create
+beautiful interactive slide decks using HTML. This presentation will show you
+how to integrate it with [Jekyll](http://jekyllrb.com/)
+&lt;/section&gt;
+
+&lt;section data-markdown=&quot;&quot;&gt;
+## Slide 2
+
+[reveal.js](https://github.com/hakimel/reveal.js/) enables you to create
+beautiful interactive slide decks using HTML. This presentation will show you
+how to integrate it with [Jekyll](http://jekyllrb.com/)
+&lt;/section&gt;
+
+&lt;section data-markdown=&quot;&quot;&gt;
+## Slide 3
+
+[reveal.js](https://github.com/hakimel/reveal.js/) enables you to create
+beautiful interactive slide decks using HTML. This presentation will show you
+how to integrate it with [Jekyll](http://jekyllrb.com/)
+&lt;/section&gt;
+</description>
+        <pubDate>Sun, 01 Jan 2017 07:00:00 -0600</pubDate>
+        <link>https://gadgetry.io/sample-presentation/</link>
+        <guid isPermaLink="true">https://gadgetry.io/sample-presentation/</guid>
+        
+        
+        <category>presentation</category>
+        
+      </item>
     
       <item>
         <title>Hello World</title>
