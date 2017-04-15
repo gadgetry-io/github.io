@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gadgetry.io</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="gadgetry, open source, devops, toolchain, pipeline, cloud">
+
+  <link rel="stylesheet" href="/assets/styles/theme.css">
+  <link rel="stylesheet" href="/assets/styles/font-awesome.css">
+  <link rel="stylesheet" href="/assets/styles/reveal.css">
+  <link rel="stylesheet" href="/assets/styles/custom.css">
+
+  <script type="text/javascript" src="/assets/scripts/jquery.js"></script>
+  <script type="text/javascript" src="/assets/scripts/bootstrap.js"></script>
+  <script type="text/javascript" src="/assets/scripts/lunr.js"></script>
+  <script type="text/javascript" src="/assets/scripts/search.js"></script>
+  <script type="text/javascript" src="/assets/scripts/fullscreensearch.js"></script>
+  <script type="text/javascript" src="/assets/scripts/reveal.js"></script>
+</head>
+
+  <body>
+    <div class="container">
+
+      <div class="header">
+        <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><!--<img class="brand" src="/assets/images/gadgetry.nav.png" >--> Gadgetry.io</a>
+          <!--<a class="navbar-brand" href="/"><img class="img-brand" src="/assets/images/starterlog.png"> Starter Log</a>-->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/about">About</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <!--<li><a href="/projects">Projects</a></li>-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <!--<li><a href="/book">Book</a></li>-->
+                <li><a href="/chef">Chef</a></li>
+                <li><a href="/docker">Docker</a></li>
+                <li><a href="/packer">Packer</a></li>
+                <li><a href="/terraform">Terraform</a></li>
+                <li><a href="/theme">Theme</a></li>
+              </ul>
+            </li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="#search">Search</a></li>
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <br>
+    <div id="search">
+      <form action="/search/" method="get">
+        <input type="search" id="search-box" name="query" placeholder="search keyword(s)">
+        <button type="submit" class="btn btn-lg btn-default"><i class="fa fa-lg fa-search"></i> Search</button>
+      </form>
+    </div>
+
+      </div>
+
+      <div class="wrapper container">
+            <!-- Full Width Image Header with Logo -->
+    <!-- Image backgrounds are set within the custom.css file. -->
+    <header class="image-bg-fluid-height">
+        <div class="row text-center">
+          <img class="img-responsive img-center" src="assets/images/banner-tagline.png" alt="">
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <section>
+        <br>
+        <div class="container">
+          <div class="row">
+            <br><hr>
+            <p class="lead text-center">Gadgetry helps automate your business platform.</p><br>
+
+            <p class="text-center">
+              <a href="/contact" target="_blank" class="btn btn-success btn-lg">
+                <i class="fa fa-lg fa-check-square-o"></i> Let's Get Ship Done!</a>
+            </p>
+            <br>
+          </div>
+          <!-- Content Row -->
+          <!-- Page Features -->
+          <div class="row text-center">
+            <br>
+              <div class="col-md-4 col-sm-8 col-sm-12 hero-feature">
+                  <div class="thumbnail">
+
+                      <img class="img-responsive img-center" src="assets/images/money.png" alt="">
+                      <div class="caption">
+                          <h3>Do More with Less.</h3>
+                          <p>Deliver value quickly and make progress
+                            with fewer staff and less budget.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4 col-sm-8 col-sm-12 hero-feature">
+                  <div class="thumbnail">
+                      <img class="img-responsive img-center" src="assets/images/build.png" alt="">
+                      <div class="caption">
+                          <h3>Build and Develop.</h3>
+                          <p>Deliver a solution that enables team innovation
+                            and creative momentum.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4 col-sm-8 col-sm-12 hero-feature">
+                  <div class="thumbnail">
+                      <img class="img-responsive img-center" src="assets/images/scale.png" alt="">
+                      <div class="caption">
+                          <h3>Adapt at Scale.</h3>
+                          <p>Deliver a platform that adapts at scale to meet
+                            the needs of modern business.</p>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+          <!-- /.row -->
+          <br>
+
+  <div class="row">
+            <hr>
+            <p class="lead">
+              Your journey toward automation, flexibility, and scalability begins here.
+            </p>
+            <p>Today's organizations are rewarded for their approach
+              to innovation… related to their product or service, and how they
+              approach innovation across the entire operation. Organizations of
+              all sizes are focused on building blocks (people, process, technology)
+              that can be reconfigured as necessary to address changes in a highly
+              competitive landscape.</p>
+              <p>From the office to the datacenter and everything in between our
+                experienced team is here to help propel your mission forward!
+              </p>
+              <br>
+            <p class="lead">
+              Here are some things probably already know...</p>
+            <p>
+              <ul>
+                <li>Where you decide to invest your time and resources is important.</li>
+                <li>Qualified and trained open source DevOps engineers are difficult to find.</li>
+                <li>Developed solutions that don't ship to production are very costly.</li>
+              </ul>
+            </p><br>
+            <p class="lead">
+              Here are some things you should know...
+            </p>
+          </div>
+          <!-- Page Features -->
+          <div class="row text-center">
+
+              <div class="col-md-4 col-sm-8 hero-feature">
+                  <div class="thumbnail">
+
+                      <img class="img-responsive img-center" src="assets/images/code.png" alt="">
+                      <div class="caption">
+                          <h3>Open Source</h3>
+                          <p>It’s an open-source world.</p>
+                          <p>Today, 78% of companies use open-source technology.</p>
+                              <br>
+                              <br><i>- Future of Open Source Survey 2016</i></p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4 col-sm-8 hero-feature">
+                  <div class="thumbnail">
+                      <img class="img-responsive img-center" src="assets/images/cloud.png" alt="">
+                      <div class="caption">
+                          <h3>Cloud Services</h3>
+                          <p>Today 12% of organizations run 100% of the infrastructure
+                            in the cloud.
+                            <br><br>By 2020, 50% will be all cloud and by 2025 that will
+                            grow to over 70%.
+                              <br>
+                              <br><i>- BetterCloud 2015</i></p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4 col-sm-8 hero-feature">
+                  <div class="thumbnail">
+                      <img class="img-responsive img-center" src="assets/images/devops.png" alt="">
+                      <div class="caption">
+                          <h3>DevOps Automation</h3>
+                          <p>DevOps adoption increased from 66% in 2015 to 74% in
+                            2016.
+                            <br><br>Enterprises are adopting DevOps from the
+                            bottom up by team and by project.
+                              <br>
+                              <br><i>- 2016 State of the Cloud Survey</i></p>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+          <!-- /.row -->
+
+    </section>
+
+    <hr>
+    <h2><i class="fa fa-file-text-o"></i> Recent Posts</h2>
+    <br>
+<section class="post-list">
+
+  <div class="container">
+    
+      <article class="post-item">
+        <span class="post-meta date-label">Jan 01 2017</span>
+        <div class="article-title"><a class="post-link" href="/hello-world/">Hello World</a></div>
+      </article><br>
+    
+  </div>
+
+</section>
+
+      </div>
+
+      <div class="footer">
+        <div class="container">
+    <!--<div class="row">
+            <div class="col-xs-4">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-group"></i> Team<li>
+                    <li><a href="/about">Meet the Team</a></li>
+                    <li><a href="#">How We Work</a></li>
+                    <li><a href="https://github.com/Copyleft-io" target="_blank">Source Code</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-archive"></i> Projects<li>
+                    <li><a href="#">Basestation</a></li>
+                    <li><a href="/cloud">Cloud</a></li>
+                    <li><a href="https://github.com/Copyleft-io/starterlog-theme" target="_blank">Starterlog</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-cogs"></i> Services<li>
+                    <li><a href="#">Consulting</a></li>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Presentations</a></li>
+                </ul>
+            </div>
+    </div>-->
+    <!-- /.row -->
+
+    <hr>
+    <div class="row">
+        <div class="col-xs-7">
+          <p class="text-muted pull-left"><a href="https://github.com/gadgetry-io/starterlog-theme" target="_blank">Starter Log Theme</a> by <a href="http://gadgetry.io" target="_blank"> Gadgetry.io</a>
+            <br><a href="https://opensource.org/licenses/MPL-2.0" target="_blank">Mozilla Public License 2.0</a>
+          </p>
+        </div>
+        <div class="col-xs-5">
+            <p class="text-muted pull-right"> Handcrafted by Practitioners</p>
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+      </div>
+
+    </div>
+
+  </body>
+</html>

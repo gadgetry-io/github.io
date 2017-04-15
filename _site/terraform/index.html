@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gadgetry.io</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="gadgetry, open source, devops, toolchain, pipeline, cloud">
+
+  <link rel="stylesheet" href="/assets/styles/theme.css">
+  <link rel="stylesheet" href="/assets/styles/font-awesome.css">
+  <link rel="stylesheet" href="/assets/styles/reveal.css">
+  <link rel="stylesheet" href="/assets/styles/custom.css">
+
+  <script type="text/javascript" src="/assets/scripts/jquery.js"></script>
+  <script type="text/javascript" src="/assets/scripts/bootstrap.js"></script>
+  <script type="text/javascript" src="/assets/scripts/lunr.js"></script>
+  <script type="text/javascript" src="/assets/scripts/search.js"></script>
+  <script type="text/javascript" src="/assets/scripts/fullscreensearch.js"></script>
+  <script type="text/javascript" src="/assets/scripts/reveal.js"></script>
+</head>
+
+  <body>
+    <div class="container">
+
+      <div class="header">
+        <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><!--<img class="brand" src="/assets/images/gadgetry.nav.png" >--> Gadgetry.io</a>
+          <!--<a class="navbar-brand" href="/"><img class="img-brand" src="/assets/images/starterlog.png"> Starter Log</a>-->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/about">About</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <!--<li><a href="/projects">Projects</a></li>-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <!--<li><a href="/book">Book</a></li>-->
+                <li><a href="/chef">Chef</a></li>
+                <li><a href="/docker">Docker</a></li>
+                <li><a href="/packer">Packer</a></li>
+                <li><a href="/terraform">Terraform</a></li>
+                <li><a href="/theme">Theme</a></li>
+              </ul>
+            </li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="#search">Search</a></li>
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <br>
+    <div id="search">
+      <form action="/search/" method="get">
+        <input type="search" id="search-box" name="query" placeholder="search keyword(s)">
+        <button type="submit" class="btn btn-lg btn-default"><i class="fa fa-lg fa-search"></i> Search</button>
+      </form>
+    </div>
+
+      </div>
+
+      <div class="wrapper container">
+        <div class="container">
+
+    <!-- Heading Row -->
+    <div class="row">
+        <div class="col-md-4">
+          <img class="img-rounded img-responsive img-profiile-pic" src="/assets/images/terraform/terraform-logo.png" alt="">
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-8">
+            <h1>Terraform</h1>
+            <p>This is a project at Gadgetry.io where we explore good
+              practices for using Terraform to automate the provisioning of an AWS
+              Infrastructure.</p>
+            <p>Through a series of posts we will be publishing our ideas and
+              experience along with our code base.</p>
+            <a class="btn btn-primary btn-lg" href="https://github.com/gadgetry-io/terraform" target="_blank"><i class="fa fa-lg fa-github"></i> Get Started!</a>
+        </div>
+        <!-- /.col-md-8 -->
+    </div>
+    <!-- /.row -->
+
+    <hr>
+    <!-- Documentation -->
+    <div class="row">
+        <div class="col-lg-12">
+            <p class="lead">
+                <i class="fa fa-lg fa-code"></i> Infrastructure as Code </p>
+            <p>When thinking about Infrastructure as a Service (IaaS) and using
+              Infrastructure as Code to achieve that objective we are concerned
+              with thinking about the "Configuration" and "State" of the
+              things we manage... how we use patterns... and the separation of
+              roles (e.g. single role per node).  And while we will often reuse
+              patterns and concepts like roles to manage the “Configuration" in a consistent
+              manner, we don't dare intermingle the "State" between devices.</p>
+            <p>So, when thinking about "Platform as a Service" (PaaS) and how best to
+              implement we should approach it with a similar mindset as IaaS
+              considering Configuration, State, the Separation of Responsibility and Minimizing Risk from Changes.</p>
+            <p>The goal with using Infrastructure as Code to implement IaaS and more broadly
+              as PaaS capabilities is to be objectively simple. As a team we'll
+              want to avoid creating unneccessary and unintentional complexity by specifically
+              focusing on how we manage Configuration and State in a variety of contexts.</p>
+              <br>
+            <p class="lead">What will make your day better?</p>
+            <p><ul>
+                <li>An objectively simple design that allows you to reason about the platform and its moving parts.</li>
+                <li>An implementation that provides you with flexibility while limiting risk from changes.</li>
+                <li>A solution that delivers value today and continues to build momentum over the long haul.</li>
+              </ul>
+            </p>
+        </div>
+        <!-- /.col-lg-12 -->
+
+    </div>
+    <!-- /.row -->
+    <!-- Documentation -->
+    <div class="row">
+        <div class="col-lg-12">
+          <br>
+            <p class="lead">
+                <i class="fa fa-lg fa-trophy"></i> Good Practices... </p>
+            <p>Here is a quick summary of what we will be covering in more detailed posts...</p>
+            <p>(1) Manage "State" separately for Stacks and Environments</p>
+            <p>(2) Implement Stacks for consistent "Configuration"</p>
+            <p>(3) Keep it stupid simple with "Patterns".</p>
+            <p>(4) Create real momentum with a good "Workflow"</p>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+    <hr>
+    <!-- Content Row -->
+    <div class="row">
+        <div class="col-md-5">
+            <h2>Configuration</h2>
+            <p><i>noun</i><br>
+              <i>an arrangement of elements in a particular form, figure, or combination.</i></p>
+            <!--<a class="btn btn-default" href="#">More Info</a>-->
+        </div>
+        <!-- /.col-md-5 -->
+        <div class="col-md-5 col-md-offset-1">
+            <h2>State</h2>
+            <p><i>noun</i><br>
+              <i>the particular condition that someone or something is in at a specifc time.</i></p>
+            <!--<a class="btn btn-default" href="#">More Info</a>-->
+        </div>
+        <!-- /.col-md-5 -->
+    </div>
+    <!-- /.row -->
+    <br>
+    <hr>
+
+    <!-- Documentation -->
+    <div class="row">
+        <div class="col-lg-12">
+            <p class="lead">
+                <i class="fa fa-lg fa-file-text-o"></i> Posts... <br>
+              <ul>
+                <li class="lead"><a href="">Getting Started (coming soon!)</a></li>
+              </ul>
+              </p>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+      </div>
+
+      <div class="footer">
+        <div class="container">
+    <!--<div class="row">
+            <div class="col-xs-4">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-group"></i> Team<li>
+                    <li><a href="/about">Meet the Team</a></li>
+                    <li><a href="#">How We Work</a></li>
+                    <li><a href="https://github.com/Copyleft-io" target="_blank">Source Code</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-archive"></i> Projects<li>
+                    <li><a href="#">Basestation</a></li>
+                    <li><a href="/cloud">Cloud</a></li>
+                    <li><a href="https://github.com/Copyleft-io/starterlog-theme" target="_blank">Starterlog</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-cogs"></i> Services<li>
+                    <li><a href="#">Consulting</a></li>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Presentations</a></li>
+                </ul>
+            </div>
+    </div>-->
+    <!-- /.row -->
+
+    <hr>
+    <div class="row">
+        <div class="col-xs-7">
+          <p class="text-muted pull-left"><a href="https://github.com/gadgetry-io/starterlog-theme" target="_blank">Starter Log Theme</a> by <a href="http://gadgetry.io" target="_blank"> Gadgetry.io</a>
+            <br><a href="https://opensource.org/licenses/MPL-2.0" target="_blank">Mozilla Public License 2.0</a>
+          </p>
+        </div>
+        <div class="col-xs-5">
+            <p class="text-muted pull-right"> Handcrafted by Practitioners</p>
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+      </div>
+
+    </div>
+
+  </body>
+</html>

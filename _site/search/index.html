@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gadgetry.io</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="gadgetry, open source, devops, toolchain, pipeline, cloud">
+
+  <link rel="stylesheet" href="/assets/styles/theme.css">
+  <link rel="stylesheet" href="/assets/styles/font-awesome.css">
+  <link rel="stylesheet" href="/assets/styles/reveal.css">
+  <link rel="stylesheet" href="/assets/styles/custom.css">
+
+  <script type="text/javascript" src="/assets/scripts/jquery.js"></script>
+  <script type="text/javascript" src="/assets/scripts/bootstrap.js"></script>
+  <script type="text/javascript" src="/assets/scripts/lunr.js"></script>
+  <script type="text/javascript" src="/assets/scripts/search.js"></script>
+  <script type="text/javascript" src="/assets/scripts/fullscreensearch.js"></script>
+  <script type="text/javascript" src="/assets/scripts/reveal.js"></script>
+</head>
+
+  <body>
+    <div class="container">
+
+      <div class="header">
+        <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><!--<img class="brand" src="/assets/images/gadgetry.nav.png" >--> Gadgetry.io</a>
+          <!--<a class="navbar-brand" href="/"><img class="img-brand" src="/assets/images/starterlog.png"> Starter Log</a>-->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/about">About</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <!--<li><a href="/projects">Projects</a></li>-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <!--<li><a href="/book">Book</a></li>-->
+                <li><a href="/chef">Chef</a></li>
+                <li><a href="/docker">Docker</a></li>
+                <li><a href="/packer">Packer</a></li>
+                <li><a href="/terraform">Terraform</a></li>
+                <li><a href="/theme">Theme</a></li>
+              </ul>
+            </li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="#search">Search</a></li>
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <br>
+    <div id="search">
+      <form action="/search/" method="get">
+        <input type="search" id="search-box" name="query" placeholder="search keyword(s)">
+        <button type="submit" class="btn btn-lg btn-default"><i class="fa fa-lg fa-search"></i> Search</button>
+      </form>
+    </div>
+
+      </div>
+
+      <div class="wrapper container">
+        <form action="/search/" method="get">
+  <label for="search-box">Search</label>
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form>
+
+<ul id="search-results"></ul>
+
+<script>
+  window.store = {
+    
+      "hello-world": {
+        "title": "Hello World",
+        "author": "",
+        "category": "",
+        "content": "Hello World!Sunday, January 1, 2017by Brian Hooperbrian.hooper@gadgetry.ioWelcome!The team at Gadgetry.io is a group of skilled practitioners focused on advanced businesscapabilities delivered through open source technology and cloud based services. Our teamof experienced practitioners have broad backgrounds working with organizationsthat range in size from lean startups to large Fortune 500 companies. Weare a caffeinated and hoppy blend of software and infrastructure engineering talent.Our team initially met and worked together over the course of several years foran international startup based in Nashville, Chicago, and London. During our timeworking together we enjoyed the challenge and freedom of using open source technologyto deliver platform as a service (PaaS) for a big data analytics and targeting engine usedby financial institutions and advertisers in the payment card industry.Our passion is sharing our knowledge and expertise to implement ingenious open sourceand cloud based solutions so that teams of all sizes can realize the benefits froma well-engineered platform.  In addition to our consulting services here you will alsofind our thoughts, ideas, rants, and inner daemons.Cheers!-Brian",
+        "url": "/hello-world/"
+      }
+      
+    
+  };
+</script>
+<script src="/assets/scripts/lunr.js"></script>
+<script src="/assets/scripts/search.js"></script>
+
+      </div>
+
+      <div class="footer">
+        <div class="container">
+    <!--<div class="row">
+            <div class="col-xs-4">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-group"></i> Team<li>
+                    <li><a href="/about">Meet the Team</a></li>
+                    <li><a href="#">How We Work</a></li>
+                    <li><a href="https://github.com/Copyleft-io" target="_blank">Source Code</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-archive"></i> Projects<li>
+                    <li><a href="#">Basestation</a></li>
+                    <li><a href="/cloud">Cloud</a></li>
+                    <li><a href="https://github.com/Copyleft-io/starterlog-theme" target="_blank">Starterlog</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-cogs"></i> Services<li>
+                    <li><a href="#">Consulting</a></li>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Presentations</a></li>
+                </ul>
+            </div>
+    </div>-->
+    <!-- /.row -->
+
+    <hr>
+    <div class="row">
+        <div class="col-xs-7">
+          <p class="text-muted pull-left"><a href="https://github.com/gadgetry-io/starterlog-theme" target="_blank">Starter Log Theme</a> by <a href="http://gadgetry.io" target="_blank"> Gadgetry.io</a>
+            <br><a href="https://opensource.org/licenses/MPL-2.0" target="_blank">Mozilla Public License 2.0</a>
+          </p>
+        </div>
+        <div class="col-xs-5">
+            <p class="text-muted pull-right"> Handcrafted by Practitioners</p>
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+      </div>
+
+    </div>
+
+  </body>
+</html>

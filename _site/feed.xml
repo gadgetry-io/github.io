@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gadgetry.io</title>
+    <description>We Get Ship Done! Pipeline as a Service for the well-equipped modern business.</description>
+    <link>https://gadgetry.io/</link>
+    <atom:link href="https://gadgetry.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 15 Apr 2017 00:39:10 -0500</pubDate>
+    <lastBuildDate>Sat, 15 Apr 2017 00:39:10 -0500</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Hello World</title>
+        <description>&lt;h1 id=&quot;hello-world&quot;&gt;Hello World!&lt;/h1&gt;
+&lt;p&gt;Sunday, January 1, 2017
+&lt;br /&gt;by Brian Hooper
+&lt;br /&gt;&lt;a href=&quot;mailto:brian.hooper@gadgetry.io&quot;&gt;brian.hooper@gadgetry.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;welcome&quot;&gt;Welcome!&lt;/h3&gt;
+&lt;p&gt;The team at Gadgetry.io is a group of skilled practitioners focused on advanced business
+capabilities delivered through open source technology and cloud based services. Our team
+of experienced practitioners have broad backgrounds working with organizations
+that range in size from lean startups to large Fortune 500 companies. We
+are a caffeinated and hoppy blend of software and infrastructure engineering talent.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Our team initially met and worked together over the course of several years for
+an international startup based in Nashville, Chicago, and London. During our time
+working together we enjoyed the challenge and freedom of using open source technology
+to deliver platform as a service (PaaS) for a big data analytics and targeting engine used
+by financial institutions and advertisers in the payment card industry.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Our passion is sharing our knowledge and expertise to implement ingenious open source
+and cloud based solutions so that teams of all sizes can realize the benefits from
+a well-engineered platform.  In addition to our consulting services here you will also
+find our thoughts, ideas, rants, and inner daemons.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Cheers!
+&lt;br /&gt;-Brian&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 01 Jan 2017 07:00:00 -0600</pubDate>
+        <link>https://gadgetry.io/hello-world/</link>
+        <guid isPermaLink="true">https://gadgetry.io/hello-world/</guid>
+        
+        
+        <category>hello</category>
+        
+        <category>welcome</category>
+        
+        <category>update</category>
+        
+        <category>get</category>
+        
+        <category>started</category>
+        
+      </item>
+    
+  </channel>
+</rss>

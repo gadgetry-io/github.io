@@ -1,0 +1,46 @@
+# SEO settings
+title: "Gadgetry.io"
+description: "We Get Ship Done! Pipeline as a Service for the well-equipped modern business."
+keywords: "gadgetry, open source, devops, toolchain, pipeline, cloud"
+url: https://gadgetry.io #site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+#google_analytics: UA-XXXXX-XX
+repo: https://github.com/gadgetry-io/gadgetry-io.github.io
+#disqus_shortname: "FellowHobbyist"
+#twitter_username: "FelloWHobbyist"
+#comments: true
+
+# Build settings
+#permalink   : /:year/:title/
+permalink: /:title/
+markdown    : kramdown
+highlighter : rouge
+
+kramdown:
+    syntax_highlighter: rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+include: ['_pages']
+
+# Author settings
+author:
+  name     : "Brian Hooper"
+  job      : "Founder, Practitioner"
+  bio      : "Skilled Practitioner focused on Platform as a Service and advanced DevOps capabilities delivered through Open Source Technologies and Cloud Based Services."
+  thumb    : /images/author.jpg
+  email    : afellowhobbyist@gmail.com
+  url      : http://fellowhobbyist.github.io
+  github   : http://github.com/fellowhobbyist
+  twitter  : http://twitter.com/fellowhobbyist
+  linkedin : http://linkedin.com/in/fellowhobbyist
+
+gems: [jekyll-paginate]
