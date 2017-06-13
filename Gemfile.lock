@@ -46,7 +46,7 @@ DEPENDENCIES
   starterlog-theme
 
 RUBY VERSION
-   ruby 2.2.0p0
+   ruby 2.0.0p648
 
 BUNDLED WITH
-   1.14.6
+   1.15.1
