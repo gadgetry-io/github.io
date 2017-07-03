@@ -25,6 +25,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
     <link rel="stylesheet" href="{{ "/assets/styles/font-awesome.css" | prepend: site.baseurl }}"/>
+    <link rel="stylesheet" href="{{ "/assets/styles/theme.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/assets/modules/reveal.js/css/reveal.css" | prepend: site.baseurl }}"/>
 
     {%if page.theme %}
@@ -59,7 +60,14 @@
           font-size: 100%;
           padding-left: 20px;
       }
+      .reveal section img {
+          background:none;
+          border:none;
+          box-shadow:none; 
+      }
     </style>
+    <script type="text/javascript" src="{{ "/assets/scripts/jquery.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/assets/scripts/bootstrap.js" | prepend: site.baseurl }}"></script>
   </head>
 
   <body>

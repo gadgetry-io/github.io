@@ -7,27 +7,71 @@ transition: slide
 date:   2017-01-01 08:00:00 -0500
 categories: presentation
 ---
-
-<section data-markdown>
-## Slide 1
-
-[reveal.js](https://github.com/hakimel/reveal.js/) enables you to create
-beautiful interactive slide decks using HTML. This presentation will show you
-how to integrate it with [Jekyll](http://jekyllrb.com/)
+<section>
+  <img src="../assets/images/posts/about/slide_01.png">
 </section>
 
-<section data-markdown>
-## Slide 2
-
-[reveal.js](https://github.com/hakimel/reveal.js/) enables you to create
-beautiful interactive slide decks using HTML. This presentation will show you
-how to integrate it with [Jekyll](http://jekyllrb.com/)
+<section>
+  <img src="../assets/images/posts/about/slide_02.png">
 </section>
 
-<section data-markdown>
-## Slide 3
+<section>
+  <img src="../assets/images/posts/about/slide_03.png">
+</section>
 
-[reveal.js](https://github.com/hakimel/reveal.js/) enables you to create
-beautiful interactive slide decks using HTML. This presentation will show you
-how to integrate it with [Jekyll](http://jekyllrb.com/)
+<section>
+  <img src="../assets/images/posts/about/slide_04.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_05.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_06.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_07.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_08.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_09.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_10.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_11.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_12.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_13.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_14.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_15.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_16.png">
+</section>
+
+<section>
+  <img src="../assets/images/posts/about/slide_17.png">
+  <p>  <a href="mailto:hello@gadgetry.io?Subject=Let's Get Started!" class="btn btn-primary btn-lg" style="color:white;">&nbsp;Let's Get Started!&nbsp;</a></p>
 </section>

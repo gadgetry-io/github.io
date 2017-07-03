@@ -5,34 +5,79 @@
     <description>We Get Ship Done! Pipeline as a Service for the well-equipped modern business.</description>
     <link>https://gadgetry.io/</link>
     <atom:link href="https://gadgetry.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Jun 2017 13:55:50 -0500</pubDate>
-    <lastBuildDate>Sat, 24 Jun 2017 13:55:50 -0500</lastBuildDate>
+    <pubDate>Mon, 03 Jul 2017 18:35:15 -0500</pubDate>
+    <lastBuildDate>Mon, 03 Jul 2017 18:35:15 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Sample Presentation</title>
-        <description>&lt;section data-markdown=&quot;&quot;&gt;
-## Slide 1
-
-[reveal.js](https://github.com/hakimel/reveal.js/) enables you to create
-beautiful interactive slide decks using HTML. This presentation will show you
-how to integrate it with [Jekyll](http://jekyllrb.com/)
+        <description>&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_01.png&quot; /&gt;
 &lt;/section&gt;
 
-&lt;section data-markdown=&quot;&quot;&gt;
-## Slide 2
-
-[reveal.js](https://github.com/hakimel/reveal.js/) enables you to create
-beautiful interactive slide decks using HTML. This presentation will show you
-how to integrate it with [Jekyll](http://jekyllrb.com/)
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_02.png&quot; /&gt;
 &lt;/section&gt;
 
-&lt;section data-markdown=&quot;&quot;&gt;
-## Slide 3
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_03.png&quot; /&gt;
+&lt;/section&gt;
 
-[reveal.js](https://github.com/hakimel/reveal.js/) enables you to create
-beautiful interactive slide decks using HTML. This presentation will show you
-how to integrate it with [Jekyll](http://jekyllrb.com/)
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_04.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_05.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_06.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_07.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_08.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_09.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_10.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_11.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_12.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_13.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_14.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_15.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_16.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;img src=&quot;../assets/images/posts/about/slide_17.png&quot; /&gt;
+  &lt;p&gt;  &lt;a href=&quot;mailto:hello@gadgetry.io?Subject=Let's Get Started!&quot; class=&quot;btn btn-primary btn-lg&quot; style=&quot;color:white;&quot;&gt;&amp;nbsp;Let's Get Started!&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 07:00:00 -0600</pubDate>
