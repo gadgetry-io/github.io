@@ -5,12 +5,12 @@
     <description>We Get Ship Done! Pipeline as a Service for the well-equipped modern business.</description>
     <link>https://gadgetry.io/</link>
     <atom:link href="https://gadgetry.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Jul 2017 18:35:15 -0500</pubDate>
-    <lastBuildDate>Mon, 03 Jul 2017 18:35:15 -0500</lastBuildDate>
+    <pubDate>Mon, 03 Jul 2017 18:37:39 -0500</pubDate>
+    <lastBuildDate>Mon, 03 Jul 2017 18:37:39 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Sample Presentation</title>
+        <title>About Gadgetry Services</title>
         <description>&lt;section&gt;
   &lt;img src=&quot;../assets/images/posts/about/slide_01.png&quot; /&gt;
 &lt;/section&gt;
@@ -80,9 +80,9 @@
   &lt;p&gt;  &lt;a href=&quot;mailto:hello@gadgetry.io?Subject=Let's Get Started!&quot; class=&quot;btn btn-primary btn-lg&quot; style=&quot;color:white;&quot;&gt;&amp;nbsp;Let's Get Started!&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Sun, 01 Jan 2017 07:00:00 -0600</pubDate>
-        <link>https://gadgetry.io/sample-presentation/</link>
-        <guid isPermaLink="true">https://gadgetry.io/sample-presentation/</guid>
+        <pubDate>Mon, 02 Jan 2017 07:00:00 -0600</pubDate>
+        <link>https://gadgetry.io/about-gadgetry-services/</link>
+        <guid isPermaLink="true">https://gadgetry.io/about-gadgetry-services/</guid>
         
         
         <category>presentation</category>

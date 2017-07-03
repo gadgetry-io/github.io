@@ -1,10 +1,10 @@
 ---
 layout: slide
-title: Sample Presentation
-description: A presentation slide for how to use reveal.js in Jekyll
+title: About Gadgetry Services
+description: More about Gadgetry Services
 theme: white
 transition: slide
-date:   2017-01-01 08:00:00 -0500
+date:   2017-01-02 08:00:00 -0500
 categories: presentation
 ---
 <section>
