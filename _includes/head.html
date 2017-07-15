@@ -16,4 +16,7 @@
   <script type="text/javascript" src="{{ "/assets/scripts/lunr.js" | prepend: site.baseurl }}"></script>
   <script type="text/javascript" src="{{ "/assets/scripts/search.js" | prepend: site.baseurl }}"></script>
   <script type="text/javascript" src="{{ "/assets/scripts/fullscreensearch.js" | prepend: site.baseurl }}"></script>
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>

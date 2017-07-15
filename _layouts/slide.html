@@ -68,6 +68,9 @@
     </style>
     <script type="text/javascript" src="{{ "/assets/scripts/jquery.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/assets/scripts/bootstrap.js" | prepend: site.baseurl }}"></script>
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
   </head>
 
   <body>
