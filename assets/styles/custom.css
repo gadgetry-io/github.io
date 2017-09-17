@@ -28,6 +28,10 @@ body {
   width: 30px;
 }
 
+.img-gadgetry-logo {
+  height: 256px;
+  width: 256px;
+}
 .img-center {
 	margin: 0 auto;
 }
