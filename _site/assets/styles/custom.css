@@ -10,8 +10,94 @@ body {
 }
 
 .wrapper {
-  padding-top: 75px;
+  padding-top: 25px;
 }
+
+header.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  background: url("../images/css/bg-pattern.png"), #70C1B3;
+  background: url("../images/css/bg-pattern.png"), -webkit-linear-gradient(to left, #70C1B3, #50514F);
+  background: url("../images/css/bg-pattern.png"), linear-gradient(to left, #70C1B3, #50514F);
+}
+
+header.masthead .header-content {
+  /*max-width: 500px;*/
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+header.masthead .header-content h1 {
+  font-size: 36px;
+}
+
+header.masthead .header-logo {
+  /*max-width: 325px;*/
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 992px) {
+
+  header.masthead {
+    height: 100vh;
+    min-height: 768px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  header.masthead .header-content {
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  header.masthead .header-content h1 {
+    padding-top: 30px;
+    font-size: 36px;
+  }
+
+  header.masthead .header-logo {
+    padding-top: 30px;
+    max-width: 325px;
+  }
+}
+
+section {
+  padding: 25px 0;
+}
+
+section.platform {
+  margin-top: 25px;
+  min-height: 450px;
+}
+
+section.services {
+  margin-top: 25px;
+  min-height: 512px;
+}
+
+section.survey {
+  margin-top: 25px;
+  min-height: 512px;
+  /*background-color: #FFE066;*/
+}
+
+section.survey p {
+  font-size: 18px;
+}
+
+section.technology {
+  min-height: 512px;
+}
+
+footer {
+  margin-top: 25px;
+}
+
+
 
 .footer {
   padding-top: 150px;
