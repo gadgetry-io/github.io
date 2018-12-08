@@ -1,366 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gadgetry.io</title>
+    <meta name="author" content="">
     <meta name="description" content="">
-    <meta name="keywords" content="gadgetry, open source, devops, toolchain, pipeline, cloud">
+    <meta name="keywords" content="gadgetry, open source, cloud, architect, engineer, site reliability, devops, aws, amazon web services, practitioner, nashville, platform, infrastructure, code, nashville">
 
-    <link rel="stylesheet" href="/assets/styles/theme.css">
-    <link rel="stylesheet" href="/assets/styles/font-awesome.css">
-    <link rel="stylesheet" href="/assets/styles/custom.css">
-    <!-- <link rel="stylesheet" href="/assets/styles/new-age.css"> -->
+    <title>GADGETRY</title>
 
-    <script type="text/javascript" src="/assets/scripts/jquery.js"></script>
-    <script type="text/javascript" src="/assets/scripts/bootstrap.js"></script>
-    <script type="text/javascript" src="/assets/scripts/lunr.js"></script>
-    <script type="text/javascript" src="/assets/scripts/search.js"></script>
-    <script type="text/javascript" src="/assets/scripts/fullscreensearch.js"></script>
-    <script type="text/javascript" src="/assets/scripts/jquery.easing.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- Styles -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-ic" />
+    <link rel="stylesheet" href="/assets/styles/landing-page.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <script type='text/javascript' src="/assets/scripts/jquery-particleground.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/landing.js" defer="defer"></script>
 
-      ga('create', 'UA-102632286-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <div>
-      <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/"><!--<img class="brand" src="/assets/images/gadgetry.nav.png" >--> Gadgetry.io</a>
-        <!--<a class="navbar-brand" href="/"><img class="img-brand" src="/assets/images/starterlog.png"> Starter Log</a>-->
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
+<!-- Page Content -->
 
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/about">About</a></li>
-          <li><a href="/blog">Blog</a></li>
-          <!--<li><a href="/projects">Projects</a></li>-->
-          <!--<li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
-            <ul class="dropdown-menu">-->
-              <!--<li><a href="/book">Book</a></li>-->
-          <!--    <li><a href="/chef">Chef</a></li>
-              <li><a href="/docker">Docker</a></li>
-              <li><a href="/packer">Packer</a></li>
-              <li><a href="/terraform">Terraform</a></li>
-              <li><a href="/theme">Theme</a></li>
-            </ul>
-          </li>-->
-          <li><a href="/services">Services</a></li>
-          <li><a href="#search">Search</a></li>
-        </ul>
+<!-- Particles Background -->
+<div id="particles"></div>
 
-      </div><!--/.nav-collapse -->
-    </div>
-    </nav>
-    <br>
-    <div id="search">
-    <form action="/search/" method="get">
-      <input type="search" id="search-box" name="query" placeholder="search keyword(s)">
-      <button type="submit" class="btn btn-lg btn-default"><i class="fa fa-lg fa-search"></i> Search</button>
-    </form>
-    </div>
+<!-- Gadgetry Logo -->
+<div id="logo">
+  <img src="/assets/images/gadgetry.png" style="height: 256px; width: 256px;">
+  <p>
+    <h1>Gadgetry</h1>
+    <a href="/home" class="btn">Be Well-Equipped</a>
+  </p>
+</div>
 
-    </div>
-    <div class="wrapper">
-      <header class="masthead">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8">
-              <div class="header-content">
-                <h1>Your business, well-equipped.</h1>
-                <br>
-                <p class="lead">We are a team of skilled practitioners who share a
-                  passion for engineering advanced DevOps and platform automation
-                  capabilities using Open Source Technology and Cloud Based Services.</p>
-                <p class="lead">We can design, codify, and deploy your AWS Platform
-                  from the network, security and storage layers all the way up the stack
-                  to databases, services, and applications.</p>
-                <!-- <p class="lead">Where you decide to invest your time and resources
-                  is important. start while your team of pioneers stay focused on delivering value for your businessWe believe that teams of all sizes should experience
-                  the benefits of a well-engineered platform.</p> -->
-                <a href="#platform" class="btn btn-lg btn-success js-scroll-trigger"><i class="fa fa-lg fa-check-square-o"></i> Let's Get Ship Done!</a>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="header-logo">
-                <img src="assets/images/gadgetry.png" class="img-responsive" alt="">
-              </div>
-            </div>
-          </div><!-- ./row -->
-          <br><br><br>
-          <div class="row text-center">
-            <div class="col-md-4 col-sm-8 col-sm-12 hero-feature">
-                <div class="thumbnail">
-                    <br>
-                    <!-- <img class="img-responsive img-center" src="assets/images/money.png" alt=""> -->
-                    <img class="img-responsive img-center" src="assets/images/icons/money.png" alt="">
-                    <div class="caption">
-                        <h3>Do More with Less.</h3>
-                        <p>Deliver value quickly and make progress
-                          with fewer staff and less budget.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-8 col-sm-12 hero-feature">
-                <div class="thumbnail">
-                  <br>
-                    <!-- <img class="img-responsive img-center" src="assets/images/build.png" alt=""> -->
-                    <img class="img-responsive img-center" src="assets/images/icons/build.png" alt="">
-                    <div class="caption">
-                        <h3>Build Real Momentum.</h3>
-                        <p>Deliver a solution that enables team innovation
-                          and creative momentum.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-8 col-sm-12 hero-feature">
-                <div class="thumbnail">
-                    <br>
-                    <!-- <img class="img-responsive img-center" src="assets/images/scale.png" alt=""> -->
-                    <img class="img-responsive img-center" src="assets/images/icons/scale.png" alt="">
-                    <div class="caption">
-                        <h3>Adapt and Scale.</h3>
-                        <p>Deliver a platform that adapts and scales for modern business.</p>
-                    </div>
-                </div>
-            </div>
-          </div><!-- ./row -->
-
-        </div>
-      </header> <!-- ./masthead -->
-
-      <section class="platform" id="platform">
-
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="platform-icon">
-                <img class="img-responsive img-center" src="assets/images/team.png" alt="">
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="platform-content">
-                <br>
-                <h1 class="platform-heading">DevOps As A Service</h1>
-                <br>
-                <!-- <p>Today's organizations are rewarded for how they approach innovation across the
-                  entire operation.  We specialize in open source technology and provide consulting,
-                    engineering, and support services for teams of all sizes who are
-                    wanting to take their DevOps game to the next level. </p> -->
-                <p class="lead">Where you decide to invest your time and resources is an important decision.
-                  Let your team stay focused on delivering value for your business.</p>
-                <p class="lead">Let our team of talented engineers design, codify, and deploy your
-                  platform using industry best practices. We have the practitioner
-                  level experience to deliver the DevOps and platform automation
-                  capabilities you've always wanted.</p>
-              </div>
-            </div>
-          </div><!-- ./row -->
-          <div class="row text-center">
-            <br><br>
-            <a href="/about" class="btn btn-lg btn-success"><i class="fa fa-lg fa-group"></i> Learn about our Team</a>&nbsp;
-            <a href="/services" class="btn btn-lg btn-success"><i class="fa fa-lg fa-gears"></i> Learn about our Services</a>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="technology" id="technology">
-        <div class="container">
-          <hr>
-          <div class="technology-content">
-            <div class="row text-center">
-              <h2>A few of the technologies we serve...</h2>
-              <br><br>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-2 col-sm-2 col-xs-4">
-                  <img class="img-responsive img-center img-tech" src="assets/images/services/aws.png" alt="">
-                  <p><a href="https://aws.amazon.com/" target="_blank">Amazon</a></p>
-                </div>
-                <!-- /.col-md-2 -->
-                <div class="col-md-2 col-sm-2 col-xs-4">
-                  <img class="img-responsive img-center img-tech" src="assets/images/services/terraform.png" alt="">
-                  <p><a href="https://terraform.io/" target="_blank">Terraform</a></p>
-                </div>
-                <!-- /.col-md-2 -->
-                <div class="col-md-2 col-sm-2 col-xs-4">
-                  <img class="img-responsive img-center img-tech" src="assets/images/services/chef.png" alt="">
-                  <p><a href="https://chef.io/" target="_blank">Chef</a></p>
-                </div>
-                <!-- /.col-md-2 -->
-                <div class="col-md-2 col-sm-2 col-xs-4">
-                  <img class="img-responsive img-center img-tech" src="assets/images/services/docker.png" alt="">
-                  <p><a href="https://www.docker.com/" target="_blank">Docker</a></p>
-                </div>
-                <!-- /.col-md-2 -->
-                <div class="col-md-2 col-sm-2 col-xs-4">
-                  <img class="img-responsive img-center img-tech" src="assets/images/services/rancher.png" alt="">
-                  <p><a href="https://rancher.com/" target="_blank">Rancher</a></p>
-                </div>
-                <!-- /.col-md-2 -->
-                <div class="col-md-2 col-sm-2 col-xs-4">
-                  <img class="img-responsive img-center img-tech" src="assets/images/services/node.jpg" alt="">
-                  <p><a href="https://nodejs.org/" target="_blank">Node.js</a></p>
-                </div>
-                <!-- /.col-md-2 -->
-            </div>
-            <!-- /.row -->
-            <br><br>
-            <div class="row text-center">
-              <div class="col-md-2 col-sm-2 col-xs-4">
-                <img class="img-responsive img-center img-tech" src="assets/images/services/hubot.png" alt="">
-                <p><a href="https://hubot.github.com/" target="_blank">Hubot</a></p>
-              </div>
-              <!-- /.col-md-2 -->
-              <div class="col-md-2 col-sm-2 col-xs-4">
-                <img class="img-responsive img-center img-tech" src="assets/images/services/jenkins.png" alt="">
-                <p><a href="https://jenkins.io/" target="_blank">Jenkins</a></p>
-              </div>
-              <!-- /.col-md-2 -->
-              <div class="col-md-2 col-sm-2 col-xs-4">
-                <img class="img-responsive img-center img-tech" src="assets/images/services/elastic.png" alt="">
-                <p><a href="https://www.elastic.co/" target="_blank">Elastic</a></p>
-              </div>
-              <!-- /.col-md-2 -->
-              <div class="col-md-2 col-sm-2 col-xs-4">
-                <img class="img-responsive img-center img-tech" src="assets/images/services/packer.png" alt="">
-                <p><a href="https://www.packer.io/" target="_blank">Packer</a></p>
-              </div>
-              <!-- /.col-md-2 -->
-              <div class="col-md-2 col-sm-2 col-xs-4">
-                <img class="img-responsive img-center img-tech" src="assets/images/services/centos.png" alt="">
-                <p><a href="https://www.centos.org/" target="_blank">CentOS</a></p>
-              </div>
-              <!-- /.col-md-2 -->
-              <div class="col-md-2 col-sm-2 col-xs-4">
-                <img class="img-responsive img-center img-tech" src="assets/images/services/ubuntu.png" alt="">
-                <p><a href="https://www.ubuntu.com/" target="_blank">Ubuntu</a></p>
-              </div>
-              <!-- /.col-md-2 -->
-            </div>
-            <!-- /.row -->
-          </div>
-        </div>
-      </section><!-- ./technology -->
-
-      <section class="survey" id="survey">
-        <div class="container">
-          <hr>
-          <div class="survey-content">
-          <!-- Page Features -->
-          <div class="row text-center">
-            <br>
-            <h1> Is your team ready to level up?<h1>
-              <p>Today's teams are rewarded for how they approach innovation
-                across the entire operation.</p>
-              <br>
-          </div>
-          <div class="row text-center">
-
-              <div class="col-md-4 col-sm-8 hero-feature">
-                  <div>
-
-                      <img class="img-responsive img-center" src="assets/images/icons/source.png" alt="">
-                      <div class="caption">
-                          <h2>Open Source</h2>
-                          <p>It is an open source world.</p>
-                          <p>More than 78% of companies are running all or part of their operations using open source.</p>
-                          <br>
-                          <p style="font-size:14px; color:#50514F;"><i>- Future of Open Source Survey 2016</i></p>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-md-4 col-sm-8 hero-feature">
-                  <div>
-                      <img class="img-responsive img-center" src="assets/images/icons/cloud.png" alt="">
-                      <div class="caption">
-                          <h2>Cloud Services</h2>
-                          <p>More than 12% of companies are running 100% in the cloud.</p>
-                          <p>By 2020, 50% will be all cloud.</p>
-                          <p>By 2025 that will grow to 70%.</p>
-                          <br>
-                          <p style="font-size:14px; color:#50514F;"><i>- BetterCloud 2015</i></p>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-md-4 col-sm-8 hero-feature">
-                  <div>
-                      <img class="img-responsive img-center" src="assets/images/icons/launch.png" alt="">
-                      <div class="caption">
-                          <h2>DevOps Automation</h2>
-                          <p>DevOps adoption increased from 66% in 2015 to 74% in
-                            2016.</p>
-                          <p>Companies are adopting DevOps practices from the
-                            bottom up by team, project and product.
-                              <br>
-                          <p style="font-size:14px; color:#50514F;"><i>- 2016 State of the Cloud Survey</i></p>
-                      </div>
-                  </div>
-              </div>
-
-          </div>
-          <!-- /.row -->
-          <div class="row text-center">
-            <br>
-            <a href="mailto:hello@gadgetry.io?Subject=Let's Get Started!" class="btn btn-success btn-lg"><i class="fa fa-lg fa-envelope"></i> Let's Get Started! </a>
-          </div>
-
-          </div>
-        </div>
-      </section>
-
-      <!-- <section class="services" id="services">
-        <div class="container">
-          <div class="services-content">
-          </div>
-        </div>
-      </div> -->
-
-      <footer>
-        <div class="container">
-          <hr>
-          <div class="row">
-            <div class="col-xs-7">
-              <p class="text-muted pull-left"><a href="https://github.com/gadgetry-io/theme" target="_blank">Starter Log Theme</a> by <a href="http://gadgetry.io" target="_blank"> Gadgetry.io</a>
-                <br><a href="https://opensource.org/licenses/MPL-2.0" target="_blank">Mozilla Public License 2.0</a>
-              </p>
-            </div>
-            <div class="col-xs-5">
-                <p class="text-muted pull-right"> Handcrafted by Practitioners</p>
-            </div>
-        </div>
-      </div>
-      </footer>
-
-
-
-    </div> <!-- ./wrapper -->
-    <!-- Custom Scripts -->
-    <script type="text/javascript" src="/assets/scripts/new-age.js"></script>
-  </body>
+</body>
 
 </html>

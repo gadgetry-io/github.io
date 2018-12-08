@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="gadgetry, open source, cloud, architect, engineer, site reliability, devops, aws, amazon web services, practitioner, nashville, platform, infrastructure, code, nashville">
+
+    <title>GADGETRY</title>
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  
+    <!-- STYLES -->
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
+
+    <!-- Reveal.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/white.min.css">
+
+    <!-- Darkmatter CSS -->
+    <link rel="stylesheet" href="/assets/styles/darkmatter.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/styles/custom.css">
+    
+    <!-- SCRIPTS -->
+    <!-- jQuery.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    
+    <!-- Bootstrap.js + Popper.js-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+
+    <!-- Reveal.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js"></script>
+    
+    <!-- Simply Jekyll Search -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/simple-jekyll-search/1.7.1/simple-jekyll-search.min.js"></script>
+
+    <!-- Holder.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.6/holder.min.js"></script>
+
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="/assets/scripts/jquery-easing.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/scrolling-nav.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+        ga('create', 'UA-102632286-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+  </head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #333;">
+    <div class="container">
+        <a class="navbar-brand" href="/home" style="color: #00ff00;"> <span style="padding-left: 5px; padding-right: 5px;"><i
+                    class="fas fa-cog"></i> GADGETRY</span> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/platform-engineering"><i class="fas fa-code"></i> Platform Engineering</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/managed-services"><i class="fas fa-cloud"></i> Managed Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact"><i class="fas fa-at"></i> Contact Us</a>
+                </li>
+                <!--   
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Pages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/cover">Cover</a>
+                        <a class="dropdown-item" href="/frontpage">Frontpage</a>
+                        <a class="dropdown-item" href="/landing">Landing</a>
+                        <a class="dropdown-item" href="/scroll">Scroll</a>
+                        <a class="dropdown-item" href="/welcome">Welcome</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/about">About</a>
+                        <a class="dropdown-item" href="/team">Team</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/fullwidth">Full Width</a>
+                        <a class="dropdown-item" href="/album">Album</a>
+                        <a class="dropdown-item" href="/product">Product</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/blog">Blog</a>
+                        <a class="dropdown-item" href="/post">Post</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/portfolio-1">1 Column Portfolio</a>
+                        <a class="dropdown-item" href="/portfolio-2">2 Column Portfolio</a>
+                        <a class="dropdown-item" href="/portfolio-3">3 Column Portfolio</a>
+                        <a class="dropdown-item" href="/portfolio-item">Portfolio Item</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Slides
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/slides/sample-presentation">Sample Presentation</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/search">Search</a>
+                </li>
+                -->
+            </ul>
+        </div>
+    </div>
+</nav>
+    </div>
+
+    <div class="container">
+      <!-- Page Content -->
+<div class="container">
+
+    <!-- Page Header -->
+    <div class="container" style="padding-top: 20px;">
+        <div class="row my-4">
+            <div class="col-lg-4 text-center">
+                <img class="img-fluid" src="/assets/images/gadgetry-md.png" alt="">
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-8">
+                <h1>Be well-equipped.</h1>
+                <p>Gadgetry specializes in Platform Engineering and DevOps Automation.</p>
+                <p>Our experienced practitioners can codify your infrastructure and help your team take their
+                    automation game to the next level. <strong>Are you ready to Get Ship Done?</strong></p>
+                <a class="btn btn-lg btn-outline-dark" href="/contact">Contact Us! &raquo;</a><br /><br />
+            </div>
+            <!-- /.col-md-8 -->
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container -->
+
+    <hr style="padding-top: 10px; padding-bottom: 10px;">
+
+<!-- Page Features -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3><strong>What We Do</strong></h3>
+                <p>Gadgetry delivers practitioner level technology services designed for the highly-dynamic nature of
+                    modern business. </p>
+                <p>Our team of
+                    Practitioners can design, codify, and deploy your AWS Infrastructure from the network,
+                    security
+                    and storage layers all the way up to database, service, and application stacks. After we build and
+                    deploy your
+                    cloud platform we can keep you up and running <strong>24</strong> x <strong>7</strong> x <strong>365</strong>.
+                </p><br />
+            </div>
+        </div>
+
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-bold">Platform Engineering</h4>
+                </div>
+                <div class="card-body">
+                    <img class="mb-2" src="/assets/images/blueprint.png" alt="" width="225"
+                        height="150"><br /><br />
+                    <p>We will architect a reliable, scalable, and cost-effective cloud
+                        platform for your business. Gadgetry can help you transform your
+                        infrastructure into a managed code base.</p>
+                    <p>Let us be your Plaform Engineering Team. </p>
+                    <a class="btn btn-lg btn-block btn-outline-dark" href="/platform-engineering" role="button">Learn
+                        More &raquo;</a>
+                </div>
+            </div>
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-bold">Managed Services</h4>
+                </div>
+                <div class="card-body">
+                    <img class="mb-2" src="/assets/images/aws.png" alt="" width="256"
+                        height="150"><br /><br />
+
+                    <p>We will build, manage and monitor your AWS infrastructure <strong>24</strong>x<strong>7</strong>x<strong>365</strong>
+                        so you can
+                        stay focused on your business. Gadgetry can help you get the most value out of your AWS
+                        investment.
+                    </p>
+                    <p>Let us manage your Cloud Infrastructure.</p>
+                    <a class="btn btn-lg btn-block btn-outline-dark" href="/managed-services" role="button">Learn More
+                        &raquo;</a>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- ./container -->
+    <hr style="padding-top: 10px; padding-bottom: 10px;">
+    <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3><strong>Who We Are</strong></h3>
+                    <p>The team at Gadgetry has a passion for engineering using Open Source Technology and Cloud Based
+                        Services. We
+                        are a caffeinated and hoppy blend of software and infrastructure engineering talent.
+                        Our team of experienced practitioners have broad technology backgrounds working with organizations
+                        that
+                        range in size from lean startups to large Fortune 500 companies. <a href="/about">More...</a></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div> <!-- /container -->
+    
+       
+
+
+    <hr style="padding-top: 10px;">
+
+    <!-- Page Features -->
+    <div class="container d-none d-md-block">
+        <div class="row">
+            <div class="col-md-12" style="padding-bottom: 10px;">
+                <h3><strong>What's in our Toolbox</strong></h3>
+                <p class="lead text-muted">Just a few of the technologies we use:</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/amazon-sm.png"
+                    alt="">
+                <p><a href="https://aws.amazon.com/" target="_blank">AWS</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/terraform-sm.png"
+                    alt="">
+                <p><a href="https://terraform.io/" target="_blank">Terraform</a></p>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/packer-sm.png"
+                    alt="">
+                <p><a href="https://www.packer.io/" target="_blank">Packer</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/chef-sm.png"
+                    alt="">
+                <p><a href="https://chef.io/" target="_blank">Chef</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/ansible-sm.png"
+                    alt="">
+                <p><a href="https://www.ansible.com/" target="_blank">Ansible</a></p>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/docker-sm.png"
+                    alt="">
+                <p><a href="https://www.docker.com/" target="_blank">Docker</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+
+
+        </div>
+        <!-- /.row -->
+        <br>
+        <div class="row text-center">
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/hubot-sm.png"
+                    alt="">
+                <p><a href="https://hubot.github.com/" target="_blank">Hubot</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/jenkins-sm.png"
+                    alt="">
+                <p><a href="https://jenkins.io/" target="_blank">Jenkins</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/grafana-sm.png"
+                    alt="">
+                <p><a href="https://grafana.com/" target="_blank">Grafana</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/linux-sm.png"
+                    alt="">
+                <p><a href="https://www.linuxfoundation.org/" target="_blank">Linux</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/centos-sm.png"
+                    alt="">
+                <p><a href="https://www.centos.org/" target="_blank">CentOS</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/ubuntu-sm.png"
+                    alt="">
+                <p><a href="https://www.ubuntu.com/" target="_blank">Ubuntu</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+        </div>
+        <!-- /.row -->
+        <br>
+
+        <div class="row text-center">
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/jira-sm.png"
+                    alt="">
+                <p><a href="https://www.atlassian.com/software/jira/" target="_blank">Jira</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/confluence-sm.png"
+                    alt="">
+                <p><a href="https://www.atlassian.com/software/confluence/" target="_blank">Confluence</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/bitbucket-sm.png"
+                    alt="">
+                <p><a href="https://www.atlassian.com/software/bitbucket/" target="_blank">Bitbucket</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/github-sm.png"
+                    alt="">
+                <p><a href="https://github.com/" target="_blank">Github</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/slack.png"
+                    alt="">
+                <p><a href="https://slack.com/" target="_blank">Slack</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/pagerduty.png"
+                    alt="">
+                <p><a href="https://www.pagerduty.com/" target="_blank">PagerDuty</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+        </div>
+        <!-- /.row -->
+        <br>
+
+        <div class="row text-center">
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/google.png"
+                    alt="">
+                <p><a href="https://gsuite.google.com/" target="_blank">GSuite</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/openvpn.png"
+                    alt="">
+                <p><a href="https://openvpn.net" target="_blank">OpenVPN</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/jumpcloud.png"
+                    alt="">
+                <p><a href="https://jumpcloud.com/" target="_blank">JumpCloud</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/postgres.png"
+                    alt="">
+                <p><a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/mysql.png"
+                    alt="">
+                <p><a href="https://www.mysql.com/" target="_blank">MySQL</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+            <div class="col-md-2 col-sm-2 col-xs-4">
+                <img class="img-responsive img-center img-tech" src="/assets/images/logos/redash.png"
+                    alt="">
+                <p><a href="https://redash.io/" target="_blank">Redash</a></p>
+            </div>
+            <!-- /.col-md-2 -->
+        </div>
+        <!-- /.row -->
+
+        <hr style="padding-top: 10px;">
+
+
+    </div>
+    <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="padding-bottom: 10px;">
+                <h3><strong>Getting Started</strong></h3>
+                <p>Are you ready to jumpstart your business with more automation, flexibility, and scalability in the cloud?</p>
+                <a href="/contact" class="btn btn-lg btn-outline-dark">Let's Talk! &raquo;</a>
+            </div>
+        </div>
+        <!-- /.row -->
+        <br>
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.container -->
+
+    </div>
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="row">
+    <div class="col-12 col-md">
+        <img class="mb-2 d-none d-md-block" src="/assets/images/gadgetry-sm.png" alt="" width="96" height="96"><!-- desktop -->
+        <small class="d-block mb-3 text-muted">&copy; Gadgetry 2018</small>
+    </div>
+    <div class="col-6 col-md">
+        <h5>Our Company</h5>
+        <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="/about">About Us</a></li>
+            <!--<li><a class="text-muted" href="#">Blog</a></li>-->
+            <li><a class="text-muted" href="/contact">Contact Us</a></li>
+            <!--<li><a class="text-muted" href="#">Slides</a></li>
+            <li><a class="text-muted" href="#">HyperLink Four</a></li>
+            <li><a class="text-muted" href="#">HyperLink Five</a></li>-->
+        </ul>
+    </div>
+    <div class="col-6 col-md">
+        <h5>Our Services</h5>
+        <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="/managed-services">AWS Managed Services</a></li>
+            <li><a class="text-muted" href="/platform-engineering">Platform Engineering</a></li>
+            <!--<li><a class="text-muted" href="#">HyperLink Three</a></li>
+            <li><a class="text-muted" href="#">HyperLink Four</a></li>
+            <li><a class="text-muted" href="#">HyperLink Five</a></li>-->
+        </ul>
+    </div>
+    <!--<div class="col-6 col-md">
+        <h5>Heading 3</h5>
+        <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">HyperLink One</a></li>
+            <li><a class="text-muted" href="#">HyperLink Two</a></li>
+            <li><a class="text-muted" href="#">HyperLink Three</a></li>
+            <li><a class="text-muted" href="#">HyperLink Four</a></li>
+            <li><a class="text-muted" href="#">HyperLink Five</a></li>
+        </ul>
+    </div>-->
+</div>
+<!-- /.row -->
+
+<hr>
+<div class="row">
+    <div class="col-6 col-md">
+        <p class="text-muted float-left">
+            <a href="https://github.com/fellowhobbyist/darkmatter-theme/" target="_blank">Darkmatter Theme</a>
+            Handcrafted with <i class="fas fa-heart"></i> by a <a href="https://fellowhobbyist.com" target="_blank">Fellow
+                Hobbyist</a>
+        </p>
+    </div>
+    <div class="col-6 col-md">
+        <p class="text-muted float-right">
+            <a href="https://opensource.org/licenses/MPL-2.0" target="_blank">Mozilla Public License 2.0</a>
+        </p>
+    </div>
+</div>
+<!-- /.row -->
+    </footer>
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      limit: 25
+    })
+  </script>
+</body>
+
+</html>
