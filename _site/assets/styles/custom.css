@@ -1,0 +1,19 @@
+/*!
+ * Gadgetry.io Custom CSS (https://gadgetry.io)
+ * Copyright 2018 Gadgetry, LLC
+ * Licensed under MPL_2.0 (https://www.mozilla.org/en-US/MPL/2.0/)
+ */
+
+.img-center {
+	margin: 0 auto;
+}
+
+.img-tech {
+  height: 75px;
+}
+
+.btn-outline-dark:hover, .btn-outline-dark:active:focus {
+  color: #00ff00;
+  background-color: #333;
+  border-color: #333;
+}
